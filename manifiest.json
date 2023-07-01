@@ -1,0 +1,10 @@
+{
+  "name": "GO-TO WORKFLOW",
+  "description": "Create a new tab with the selected's workflow source code ",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "sample.js"
+  },
+  "manifest_version": 3
+}
